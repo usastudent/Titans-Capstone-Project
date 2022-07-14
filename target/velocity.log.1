@@ -1,0 +1,761 @@
+2022-06-28 11:11:46,936 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-06-28 11:11:46,936 - Initializing Velocity, Calling init()...
+2022-06-28 11:11:46,936 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-06-28 11:11:46,936 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-06-28 11:11:46,936 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-06-28 11:11:46,936 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-06-28 11:11:46,936 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-06-28 11:11:46,936 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-06-28 11:11:46,938 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:46,946 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-06-28 11:11:46,947 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-06-28 11:11:46,947 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-06-28 11:11:46,948 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-06-28 11:11:46,948 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-06-28 11:11:46,948 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-06-28 11:11:46,948 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-06-28 11:11:46,949 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-06-28 11:11:46,949 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-06-28 11:11:46,950 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-06-28 11:11:46,962 - Created '20' parsers.
+2022-06-28 11:11:46,965 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-06-28 11:11:46,965 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-06-28 11:11:46,965 - Velocimacro : Default library not found.
+2022-06-28 11:11:46,965 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-06-28 11:11:46,965 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-06-28 11:11:46,965 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-06-28 11:11:46,965 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-06-28 11:11:47,039 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,041 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,041 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,042 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-06-28 11:11:47,042 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-06-28 11:11:47,042 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,043 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-06-28 11:11:47,043 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,045 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-06-28 11:11:47,045 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,045 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-06-28 11:11:47,045 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,046 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-06-28 11:11:47,046 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,047 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-06-28 11:11:47,047 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,048 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-06-28 11:11:47,048 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,048 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-06-28 11:11:47,048 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,050 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-06-28 11:11:47,050 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,050 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-06-28 11:11:47,050 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,054 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-06-28 11:11:47,054 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,054 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-06-28 11:11:47,054 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,054 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-06-28 11:11:47,054 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,054 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-06-28 11:11:47,054 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,055 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-06-28 11:11:47,055 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,060 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:11:47,060 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:11:47,060 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:11:47,060 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:11:47,060 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:11:47,060 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:11:47,061 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:11:47,061 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,062 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-06-28 11:11:47,062 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,063 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-06-28 11:11:47,063 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,063 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-06-28 11:11:47,063 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,064 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-06-28 11:11:47,064 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,064 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-06-28 11:11:47,064 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,065 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-06-28 11:11:47,065 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:11:47,071 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-06-28 11:11:47,072 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-06-28 11:11:47,072 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-06-28 11:11:47,072 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-06-28 11:11:47,072 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-06-28 11:11:47,082 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,757 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-06-28 11:46:53,757 - Initializing Velocity, Calling init()...
+2022-06-28 11:46:53,757 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-06-28 11:46:53,757 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-06-28 11:46:53,757 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-06-28 11:46:53,757 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-06-28 11:46:53,757 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-06-28 11:46:53,757 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-06-28 11:46:53,758 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,763 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-06-28 11:46:53,763 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-06-28 11:46:53,764 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-06-28 11:46:53,764 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-06-28 11:46:53,764 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-06-28 11:46:53,765 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-06-28 11:46:53,765 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-06-28 11:46:53,765 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-06-28 11:46:53,766 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-06-28 11:46:53,766 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-06-28 11:46:53,778 - Created '20' parsers.
+2022-06-28 11:46:53,780 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-06-28 11:46:53,780 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-06-28 11:46:53,780 - Velocimacro : Default library not found.
+2022-06-28 11:46:53,780 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-06-28 11:46:53,780 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-06-28 11:46:53,780 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-06-28 11:46:53,780 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-06-28 11:46:53,819 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,821 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,821 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,822 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-06-28 11:46:53,822 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-06-28 11:46:53,822 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,823 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-06-28 11:46:53,823 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,824 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-06-28 11:46:53,824 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,825 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-06-28 11:46:53,825 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,826 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-06-28 11:46:53,826 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,827 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-06-28 11:46:53,827 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,827 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-06-28 11:46:53,827 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,828 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-06-28 11:46:53,828 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,830 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-06-28 11:46:53,830 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,830 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-06-28 11:46:53,830 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,833 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-06-28 11:46:53,833 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,834 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-06-28 11:46:53,834 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,834 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-06-28 11:46:53,834 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,834 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-06-28 11:46:53,834 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,836 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-06-28 11:46:53,836 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,839 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:46:53,839 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:46:53,839 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:46:53,839 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:46:53,839 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:46:53,840 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:46:53,840 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-06-28 11:46:53,840 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,842 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-06-28 11:46:53,842 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,843 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-06-28 11:46:53,843 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,844 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-06-28 11:46:53,844 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,845 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-06-28 11:46:53,845 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,845 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-06-28 11:46:53,845 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,846 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-06-28 11:46:53,846 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-06-28 11:46:53,850 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-06-28 11:46:53,851 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-06-28 11:46:53,851 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-06-28 11:46:53,851 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-06-28 11:46:53,851 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-06-28 11:46:53,860 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,631 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-07-11 20:55:10,647 - Initializing Velocity, Calling init()...
+2022-07-11 20:55:10,647 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-07-11 20:55:10,647 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-07-11 20:55:10,647 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-07-11 20:55:10,647 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-07-11 20:55:10,647 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-11 20:55:10,647 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-11 20:55:10,647 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,647 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-07-11 20:55:10,647 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-07-11 20:55:10,663 - Created '20' parsers.
+2022-07-11 20:55:10,663 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-07-11 20:55:10,663 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-07-11 20:55:10,663 - Velocimacro : Default library not found.
+2022-07-11 20:55:10,663 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-07-11 20:55:10,663 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-07-11 20:55:10,663 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-07-11 20:55:10,663 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-07-11 20:55:10,710 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,710 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,710 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,725 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-07-11 20:55:10,725 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-07-11 20:55:10,725 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,727 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-07-11 20:55:10,727 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:10,741 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-07-11 20:55:10,741 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-07-11 20:55:10,741 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-07-11 20:55:10,741 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-07-11 20:55:10,741 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-07-11 20:55:10,741 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-07-11 20:55:10,741 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:10,741 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-07-11 20:55:10,741 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-07-11 20:55:10,741 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-07-11 20:55:10,741 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-07-11 20:55:10,741 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-07-11 20:55:10,757 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,415 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-07-11 20:55:44,415 - Initializing Velocity, Calling init()...
+2022-07-11 20:55:44,415 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-07-11 20:55:44,415 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-07-11 20:55:44,415 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-07-11 20:55:44,415 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-07-11 20:55:44,415 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-11 20:55:44,415 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-11 20:55:44,415 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,424 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-07-11 20:55:44,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-07-11 20:55:44,431 - Created '20' parsers.
+2022-07-11 20:55:44,431 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-07-11 20:55:44,431 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-07-11 20:55:44,431 - Velocimacro : Default library not found.
+2022-07-11 20:55:44,431 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-07-11 20:55:44,431 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-07-11 20:55:44,431 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-07-11 20:55:44,431 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-07-11 20:55:44,477 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-07-11 20:55:44,493 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,493 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-07-11 20:55:44,493 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,509 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-07-11 20:55:44,509 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:55:44,524 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-07-11 20:55:44,525 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-07-11 20:55:44,525 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-07-11 20:55:44,525 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-07-11 20:55:44,525 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-07-11 20:55:44,525 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,166 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-07-11 20:57:16,166 - Initializing Velocity, Calling init()...
+2022-07-11 20:57:16,166 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-07-11 20:57:16,166 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-07-11 20:57:16,166 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-07-11 20:57:16,166 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-07-11 20:57:16,166 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-11 20:57:16,166 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-11 20:57:16,166 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,166 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-07-11 20:57:16,181 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-07-11 20:57:16,181 - Created '20' parsers.
+2022-07-11 20:57:16,197 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-07-11 20:57:16,197 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-07-11 20:57:16,197 - Velocimacro : Default library not found.
+2022-07-11 20:57:16,197 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-07-11 20:57:16,197 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-07-11 20:57:16,197 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-07-11 20:57:16,197 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-07-11 20:57:16,231 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-07-11 20:57:16,244 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,244 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-07-11 20:57:16,244 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-07-11 20:57:16,260 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-11 20:57:16,260 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-07-11 20:57:16,260 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-07-11 20:57:16,260 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-07-11 20:57:16,260 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-07-11 20:57:16,260 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-07-11 20:57:16,276 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,472 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-07-12 00:11:06,472 - Initializing Velocity, Calling init()...
+2022-07-12 00:11:06,472 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-07-12 00:11:06,472 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-07-12 00:11:06,472 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-07-12 00:11:06,472 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-07-12 00:11:06,472 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 00:11:06,472 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 00:11:06,472 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,488 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-07-12 00:11:06,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-07-12 00:11:06,504 - Created '20' parsers.
+2022-07-12 00:11:06,504 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-07-12 00:11:06,504 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-07-12 00:11:06,504 - Velocimacro : Default library not found.
+2022-07-12 00:11:06,504 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-07-12 00:11:06,504 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-07-12 00:11:06,504 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-07-12 00:11:06,504 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-07-12 00:11:06,551 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-07-12 00:11:06,551 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,551 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-07-12 00:11:06,551 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,567 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-07-12 00:11:06,567 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,582 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-07-12 00:11:06,582 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,582 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-07-12 00:11:06,582 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,582 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-07-12 00:11:06,582 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 00:11:06,582 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-07-12 00:11:06,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-07-12 00:11:06,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-07-12 00:11:06,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-07-12 00:11:06,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-07-12 00:11:06,598 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,907 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-07-12 22:30:52,913 - Initializing Velocity, Calling init()...
+2022-07-12 22:30:52,914 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-07-12 22:30:52,914 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-07-12 22:30:52,914 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-07-12 22:30:52,914 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-07-12 22:30:52,914 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 22:30:52,914 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 22:30:52,915 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,921 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-07-12 22:30:52,921 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-07-12 22:30:52,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-07-12 22:30:52,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-07-12 22:30:52,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-07-12 22:30:52,922 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-07-12 22:30:52,923 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-07-12 22:30:52,923 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-07-12 22:30:52,924 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-07-12 22:30:52,924 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-07-12 22:30:52,937 - Created '20' parsers.
+2022-07-12 22:30:52,939 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-07-12 22:30:52,940 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-07-12 22:30:52,940 - Velocimacro : Default library not found.
+2022-07-12 22:30:52,940 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-07-12 22:30:52,940 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-07-12 22:30:52,940 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-07-12 22:30:52,940 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-07-12 22:30:52,983 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,986 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,986 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,987 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-07-12 22:30:52,987 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-07-12 22:30:52,987 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,988 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-07-12 22:30:52,988 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,990 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-07-12 22:30:52,990 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,990 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-07-12 22:30:52,990 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,991 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-07-12 22:30:52,991 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,992 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-07-12 22:30:52,992 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,992 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-07-12 22:30:52,992 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,993 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-07-12 22:30:52,993 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,995 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-07-12 22:30:52,995 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,996 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-07-12 22:30:52,996 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,999 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-07-12 22:30:52,999 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,999 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-07-12 22:30:52,999 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:52,999 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-07-12 22:30:52,999 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,000 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-07-12 22:30:53,000 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,001 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-07-12 22:30:53,001 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,004 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:30:53,005 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:30:53,005 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:30:53,005 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:30:53,005 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:30:53,005 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:30:53,005 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:30:53,005 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,006 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-07-12 22:30:53,006 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,007 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-07-12 22:30:53,007 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,007 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-07-12 22:30:53,007 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,008 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-07-12 22:30:53,008 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,009 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-07-12 22:30:53,009 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,009 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-07-12 22:30:53,009 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:30:53,013 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-07-12 22:30:53,013 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-07-12 22:30:53,013 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-07-12 22:30:53,013 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-07-12 22:30:53,013 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-07-12 22:30:53,022 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,480 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-07-12 22:31:46,481 - Initializing Velocity, Calling init()...
+2022-07-12 22:31:46,481 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-07-12 22:31:46,481 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-07-12 22:31:46,481 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-07-12 22:31:46,481 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-07-12 22:31:46,481 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 22:31:46,481 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 22:31:46,482 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,487 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-07-12 22:31:46,487 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-07-12 22:31:46,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-07-12 22:31:46,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-07-12 22:31:46,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-07-12 22:31:46,488 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-07-12 22:31:46,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-07-12 22:31:46,489 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-07-12 22:31:46,490 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-07-12 22:31:46,490 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-07-12 22:31:46,506 - Created '20' parsers.
+2022-07-12 22:31:46,508 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-07-12 22:31:46,508 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-07-12 22:31:46,508 - Velocimacro : Default library not found.
+2022-07-12 22:31:46,508 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-07-12 22:31:46,508 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-07-12 22:31:46,508 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-07-12 22:31:46,508 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-07-12 22:31:46,550 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,552 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,553 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,554 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-07-12 22:31:46,554 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-07-12 22:31:46,554 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,555 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-07-12 22:31:46,555 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,557 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-07-12 22:31:46,557 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,558 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-07-12 22:31:46,558 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,559 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-07-12 22:31:46,559 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,560 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-07-12 22:31:46,560 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,561 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-07-12 22:31:46,561 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,561 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-07-12 22:31:46,561 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,563 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-07-12 22:31:46,563 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,564 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-07-12 22:31:46,564 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,566 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-07-12 22:31:46,566 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,567 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-07-12 22:31:46,567 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,567 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-07-12 22:31:46,567 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,567 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-07-12 22:31:46,567 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,569 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-07-12 22:31:46,569 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,573 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:31:46,573 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:31:46,573 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:31:46,573 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:31:46,573 - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:31:46,573 - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:31:46,573 - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:31:46,573 - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,574 - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+2022-07-12 22:31:46,574 - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,575 - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+2022-07-12 22:31:46,575 - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,575 - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+2022-07-12 22:31:46,575 - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,577 - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+2022-07-12 22:31:46,577 - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,577 - Velocimacro : added VM includeStepName: source=/templates/macros/json/stepName.vm
+2022-07-12 22:31:46,577 - ResourceManager : found /templates/macros/json/stepName.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,578 - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+2022-07-12 22:31:46,578 - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:31:46,581 - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+2022-07-12 22:31:46,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+2022-07-12 22:31:46,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+2022-07-12 22:31:46,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+2022-07-12 22:31:46,582 - Left side ($active_tab) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+2022-07-12 22:31:46,591 - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,151 - Log4JLogChute initialized using file 'target\velocity.log'
+2022-07-12 22:35:01,151 - Initializing Velocity, Calling init()...
+2022-07-12 22:35:01,151 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2022-07-12 22:35:01,151 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2022-07-12 22:35:01,151 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2022-07-12 22:35:01,151 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2022-07-12 22:35:01,151 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 22:35:01,151 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2022-07-12 22:35:01,152 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,157 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2022-07-12 22:35:01,157 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2022-07-12 22:35:01,158 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2022-07-12 22:35:01,158 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2022-07-12 22:35:01,159 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2022-07-12 22:35:01,159 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2022-07-12 22:35:01,159 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2022-07-12 22:35:01,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2022-07-12 22:35:01,160 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2022-07-12 22:35:01,161 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2022-07-12 22:35:01,173 - Created '20' parsers.
+2022-07-12 22:35:01,175 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2022-07-12 22:35:01,176 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2022-07-12 22:35:01,176 - Velocimacro : Default library not found.
+2022-07-12 22:35:01,176 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2022-07-12 22:35:01,176 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2022-07-12 22:35:01,176 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2022-07-12 22:35:01,176 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2022-07-12 22:35:01,218 - ResourceManager : found templates/generators/errorpage.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,220 - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,220 - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,221 - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+2022-07-12 22:35:01,221 - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+2022-07-12 22:35:01,221 - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,222 - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+2022-07-12 22:35:01,222 - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,224 - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+2022-07-12 22:35:01,224 - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,224 - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+2022-07-12 22:35:01,224 - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,225 - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+2022-07-12 22:35:01,225 - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,226 - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+2022-07-12 22:35:01,226 - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,227 - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+2022-07-12 22:35:01,227 - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,227 - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+2022-07-12 22:35:01,227 - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,229 - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+2022-07-12 22:35:01,229 - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,229 - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+2022-07-12 22:35:01,230 - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,232 - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+2022-07-12 22:35:01,232 - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,233 - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+2022-07-12 22:35:01,233 - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,233 - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+2022-07-12 22:35:01,233 - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,234 - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+2022-07-12 22:35:01,234 - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,235 - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+2022-07-12 22:35:01,235 - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2022-07-12 22:35:01,238 - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:35:01,238 - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:35:01,239 - Velocimacro : added VM includeVideoEmbedding: source=/templates/macros/json/embeddings.vm
+2022-07-12 22:35:01,239 - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
